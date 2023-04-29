@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="lane_autodrive" type="autodrive.py" name="AutoDrive" output="screen"/>
+</launch>

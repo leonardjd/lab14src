@@ -1,0 +1,4 @@
+<launch>
+	<arg name="mode" default="calib"/>
+	<node pkg="lane_autodrive" type="homography.py" name="homography" output="screen" args="$(arg mode)"/>
+</launch>
